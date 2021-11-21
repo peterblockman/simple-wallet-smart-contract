@@ -1,2 +1,2 @@
 # Description
-A simple wallet smart contract that allow only some specific addresses to withdraw allowance.
+A simple wallet smart contract that allows only some specific addresses to withdraw allowance.
