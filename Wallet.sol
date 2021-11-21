@@ -36,6 +36,7 @@ contract SimpleWallet is Allowance  {
     event RecieveLog(address _addr, uint _amount);
     
     event MoneySent(address indexed _to, uint _amount);
+    
     event MoneyReceived(address indexed _from, uint _amount);
 
     function withdrawMoney(address payable _to, uint _amount) public ownerOrAllowed(_amount)  {
